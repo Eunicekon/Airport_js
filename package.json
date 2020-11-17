@@ -1,0 +1,23 @@
+{
+  "name": "airport_js",
+  "version": "1.0.0",
+  "description": "Airport challange",
+  "main": "airport.js",
+  "dependencies": {
+    "jest": "^26.6.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eunicekon/Airport_js.git"
+  },
+  "author": "Eunice Kontor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eunicekon/Airport_js/issues"
+  },
+  "homepage": "https://github.com/Eunicekon/Airport_js#readme"
+}
