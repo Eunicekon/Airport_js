@@ -1,14 +1,22 @@
-// const sum = require('./airport');
-
-// test('adds 1 + 2 to equal 3', () => {
-//   expect(sum(1, 2)).toBe(3);
-// });
-
-
+// UNIT TEST
+// to run = npm test
 const { test, expect } = require('@jest/globals');
+const Airport = require('./airport');
+const Plane = require('./plane');
 
-const airport = require('./airport');
+beforeEach(() => {
+  let plane = new Plane;
+});
 
-test('plane can land at airport', () => {
-  expect(airport("land")).toBe("land");
+test('get plane location', () => {
+  expect(plane.getLocation()).toBe("somewhere");
+});
+
+test('instruct a plane to take off from an airport', () => {
+  plane.takeOff();
+  expect(plane.getLocation()).toBe("in air");
+});
+
+test('where is the plane, confirm that it is no longer in the airport', () => {
+  expect(airport.location("x")).toBe("x");
 });

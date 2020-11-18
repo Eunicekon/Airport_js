@@ -1,5 +1,8 @@
 # Airport_js
 
+
+to run code : npm run test / npm test
+
 REQUIREMENTS:
 --------------
 1. I want to instruct a plane to land at an airport

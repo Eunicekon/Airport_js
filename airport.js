@@ -1,10 +1,13 @@
-// function sum(a, b) {
-//   return a + b;
-// }
-// module.exports = sum;
+class Airport{
 
-function airport(land){
-  return land;
+  constructor(){
+    this.capacity = 2;
+  };
+
+  docking(){
+    this.capacity--;
+    return this.capacity;
+  }
 };
 
-module.exports = airport;
+module.exports = Airport;
